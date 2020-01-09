@@ -12,9 +12,9 @@
 		9A53927A23C734920081885E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A53927923C734920081885E /* Assets.xcassets */; };
 		9A53927D23C734920081885E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A53927B23C734920081885E /* LaunchScreen.storyboard */; };
 		9A53928523C734B50081885E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53928423C734B50081885E /* TabBarViewController.swift */; };
-		9A53928723C734BA0081885E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53928623C734BA0081885E /* ViewController.swift */; };
 		9A53928923C734C00081885E /* CartContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53928823C734C00081885E /* CartContainerViewController.swift */; };
 		9A53928B23C734C40081885E /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53928A23C734C40081885E /* CartViewController.swift */; };
+		9A53928D23C736F40081885E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53928C23C736F40081885E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		9A53927C23C734920081885E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A53927E23C734920081885E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A53928423C734B50081885E /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		9A53928623C734BA0081885E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../testCart/testCart/ViewController.swift; sourceTree = "<group>"; };
 		9A53928823C734C00081885E /* CartContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartContainerViewController.swift; sourceTree = "<group>"; };
 		9A53928A23C734C40081885E /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		9A53928C23C736F40081885E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				9A53927023C734900081885E /* AppDelegate.swift */,
 				9A53928423C734B50081885E /* TabBarViewController.swift */,
-				9A53928623C734BA0081885E /* ViewController.swift */,
+				9A53928C23C736F40081885E /* ViewController.swift */,
 				9A53928823C734C00081885E /* CartContainerViewController.swift */,
 				9A53928A23C734C40081885E /* CartViewController.swift */,
 				9A53927623C734900081885E /* Main.storyboard */,
@@ -144,8 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A53928D23C736F40081885E /* ViewController.swift in Sources */,
 				9A53928923C734C00081885E /* CartContainerViewController.swift in Sources */,
-				9A53928723C734BA0081885E /* ViewController.swift in Sources */,
 				9A53928B23C734C40081885E /* CartViewController.swift in Sources */,
 				9A53928523C734B50081885E /* TabBarViewController.swift in Sources */,
 				9A53927123C734900081885E /* AppDelegate.swift in Sources */,

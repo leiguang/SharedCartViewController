@@ -16,6 +16,12 @@ class CartViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .red
+        
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 100))
+        label.text = "Cart View Controller"
+        label.center = view.center
+        view.addSubview(label)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
